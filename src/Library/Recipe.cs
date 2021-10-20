@@ -7,9 +7,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace Full_GRASP_And_SOLID
+namespace Full_GRASP_And_SOLID 
 {
-    public class Recipe
+    public class Recipe : IRecipe
     {
         // Cambiado por OCP
         private IList<BaseStep> steps = new List<BaseStep>();
